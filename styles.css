@@ -4,12 +4,14 @@ body {
     color: white;
 }
 
-h1 {
+h1, .text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 10vh;
 }
+
 
 button {
     color: red;
@@ -26,6 +28,16 @@ a:link, a:visited {
     margin-bottom: 10px;
   }
   
-  a:hover, a:active {
-    background-color: red;
-  }
+a:hover, a:active {
+    background-color: blue;
+}
+
+.back-button {
+    background-color: yellow;
+    margin-top: 10vh;
+}
+
+.back-button a {
+    background-color: none;
+}
+
